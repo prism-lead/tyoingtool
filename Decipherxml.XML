@@ -485,12 +485,6 @@ for row, flag in zip(Flag_prism.rows, flags):
 
 <suspend/>
 
-<quota label="quo1" overquota="noqual" sheet="Total Quota"/>
-
-<html label="intro" where="survey"><strong><p><span style="font-size: 14pt;">Thank you for taking time to complete this important survey. Your voice contributes to a broader effort to understand how individuals make sense of health care and public policy. Insights from this study help inform conversations about the future of health care in the United States. </span><span style="font-size: 14pt;">Let's begin...</span></p></strong></html>
-
-<suspend/>
-
 <radio 
   label="QS1">
   <title><span class="ques_no">${this.label}</span> <strong>Are you registered to vote?</strong></title>
@@ -3251,6 +3245,7 @@ if QD23.r99:
 </radio>
 
 <suspend/>
+
 
 
 </survey>
